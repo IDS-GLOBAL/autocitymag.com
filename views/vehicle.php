@@ -358,7 +358,7 @@ $totalRows_filter_vehicles = mysqli_num_rows($filter_vehicles);
                                         </div>
                                     </div>
                                 </div>
-                           <? }else {$activeExpanded = 'true';  $activeShow = "active show"; } ?>
+                           <?php }else{ $activeExpanded = 'true';  $activeShow = "active show"; } ?>
                                 <div class="tab-pane fade <?php echo $activeShow; ?>" id="somedetails" role="tabpanel" aria-expanded="<?php echo $activeExpanded; ?>">
                                     <div class="border c-brd-light border-top-0">
                                         <div class="pt-4"></div>
@@ -666,7 +666,7 @@ $voption1 = $voptionsArrays['0'];
                     </div>
                 </div>
                 <div class="slider multiple-items2">
-                         
+
 
 
 
